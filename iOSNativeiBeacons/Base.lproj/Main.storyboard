@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="MobileFirst iBeacons Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiv-vI-XEC">
+                                <rect key="frame" x="115" y="28" width="371" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="50" y="28" width="300" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="-84" y="28" width="568" height="40"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="256" y="57" width="203" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GOA-hF-IgU">
+                                <rect key="frame" x="16" y="86" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.09528694364123691" green="0.47806250011965573" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="oFL-Uw-d0h"/>
+                                    <constraint firstAttribute="height" constant="45" id="pSr-Ne-pbL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Load Beacons and Triggers">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="84" width="125" height="45"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="76" width="125" height="45"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doLoadBeaconsAndTriggers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rfX-DP-9c3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Ya2-Yf-gMq">
+                                <rect key="frame" x="459" y="86" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.09528694364123691" green="0.47806250011965573" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="pTs-cx-4lb"/>
+                                    <constraint firstAttribute="height" constant="45" id="ymH-FX-ZHf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Show Beacons and Triggers">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="91" width="125" height="43"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="76" width="125" height="43"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doShowBeaconsAndTriggers:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BN4-tS-p9b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixw-q5-ksb">
+                                <rect key="frame" x="16" y="139" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.09528694364123691" green="0.47806250011965573" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="7MU-hc-Z7w"/>
+                                    <constraint firstAttribute="height" constant="45" id="zhy-OC-GXP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Start Ranging">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="161" width="125" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="129" width="125" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doStartRanging:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XS1-dM-99q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHM-ZI-H3c">
+                                <rect key="frame" x="459" y="139" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.09528694364123691" green="0.47806250011965573" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="awO-6j-2qE"/>
+                                    <constraint firstAttribute="width" constant="125" id="iY0-Ik-P7s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Stop Ranging">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="166" width="125" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="127" width="125" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doStopRanging:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9re-10-etI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uF6-Xo-pNs">
+                                <rect key="frame" x="16" y="192" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.09528694364123691" green="0.47806250011965573" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="NwA-O5-x55"/>
+                                    <constraint firstAttribute="width" constant="125" id="blv-ay-ROf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Start Monitoring">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="225" width="125" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="165" width="125" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doStartMonitoring:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2tG-DB-6ac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRz-23-hZP">
+                                <rect key="frame" x="459" y="192" width="125" height="45"/>
+                                <color key="backgroundColor" red="0.09528694364123691" green="0.47806250011965573" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="O2t-gn-iqI"/>
+                                    <constraint firstAttribute="height" constant="45" id="cto-mR-cdA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="16"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Stop Monitoring">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="225" y="230" width="125" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="165" width="125" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doStopMonitoring:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WSw-TV-LF9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itL-QM-pg9">
+                                <rect key="frame" x="16" y="547" width="568" height="45"/>
+                                <color key="backgroundColor" red="0.14905750653161212" green="0.66666666666666663" blue="0.4846929282102771" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="xgB-fg-DZs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Turn into an iBeacon">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="130" y="532" width="141" height="30"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="130" y="750" width="141" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="doTurnIntoiBeacon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPr-2J-DhA"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Click &quot;Show Beacons and Triggers&quot; to display the list of beacons, triggers and associations here." translatesAutoresizingMaskIntoConstraints="NO" id="XrI-iH-XXY">
+                                <rect key="frame" x="16" y="245" width="568" height="294"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="itL-QM-pg9" firstAttribute="top" secondItem="XrI-iH-XXY" secondAttribute="bottom" constant="15" id="0JZ-Va-dhr"/>
+                            <constraint firstItem="EHM-ZI-H3c" firstAttribute="top" secondItem="Ya2-Yf-gMq" secondAttribute="bottom" constant="10" id="7wL-md-7tN"/>
+                            <constraint firstItem="ixw-q5-ksb" firstAttribute="top" secondItem="GOA-hF-IgU" secondAttribute="bottom" constant="10" id="BqB-b4-4fi"/>
+                            <constraint firstItem="IRz-23-hZP" firstAttribute="top" secondItem="EHM-ZI-H3c" secondAttribute="bottom" constant="10" id="Ecq-Ag-sSY"/>
+                            <constraint firstAttribute="centerX" secondItem="yiv-vI-XEC" secondAttribute="centerX" id="IR9-ZB-gUx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="itL-QM-pg9" secondAttribute="trailing" constant="10" id="LFD-SG-X1i"/>
+                            <constraint firstItem="yiv-vI-XEC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="M4o-He-hU7"/>
+                            <constraint firstAttribute="centerX" secondItem="itL-QM-pg9" secondAttribute="centerX" id="NId-Qa-nmk"/>
+                            <constraint firstItem="XrI-iH-XXY" firstAttribute="top" secondItem="IRz-23-hZP" secondAttribute="bottom" constant="15" id="TrS-k1-fBW"/>
+                            <constraint firstItem="uF6-Xo-pNs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="UHf-yN-wNg"/>
+                            <constraint firstItem="XrI-iH-XXY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="YXZ-xk-zmg"/>
+                            <constraint firstItem="EHM-ZI-H3c" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-10" id="Z15-aN-vY5"/>
+                            <constraint firstItem="uF6-Xo-pNs" firstAttribute="top" secondItem="ixw-q5-ksb" secondAttribute="bottom" constant="10" id="Znd-hy-ZZa"/>
+                            <constraint firstItem="IRz-23-hZP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-10" id="cz4-ux-MWX"/>
+                            <constraint firstItem="XrI-iH-XXY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-10" id="dIu-z5-8Ua"/>
+                            <constraint firstItem="Ya2-Yf-gMq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="-10" id="lTd-fT-ebY"/>
+                            <constraint firstItem="itL-QM-pg9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="mZ1-WK-1ZC"/>
+                            <constraint firstItem="GOA-hF-IgU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="nOJ-Rv-YUH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="itL-QM-pg9" secondAttribute="bottom" constant="10" id="qFX-W0-Fc7"/>
+                            <constraint firstItem="ixw-q5-ksb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="xuU-eL-la4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="XrI-iH-XXY" id="9Vr-ZB-Bs2"/>
+                        <outlet property="turnIntoiBeaconButton" destination="itL-QM-pg9" id="21k-dD-7p9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="177" y="298"/>
+        </scene>
+    </scenes>
+</document>
