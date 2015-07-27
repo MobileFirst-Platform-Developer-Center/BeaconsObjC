@@ -496,9 +496,8 @@ extern NSMutableDictionary *piggyBackData;
 - (void) logout:(NSString *) realmName withDelegate:(id <WLDelegate>)delegate options:(NSDictionary *)options;
 
 /**
- * Pin server's public key to the client, once you call this method the client will be able to
- * make connect requests only to the server you have pinned.
- * @param certificateFilename - the name of the certificate
+ Pins the host X509 certificate public key to the client application. Secured calls to the pinned remote host will be checked for a public key match. Secured calls to other hosts containing other certificates will be rejected. Some mobile operating systems might cache the certificate validation check results. Your app must call the certificate pinning method before making a secured request. Calling this method a second time overrides any previous pinning operation.
+ * @param certficateFilename - the name of the certificate file
  
  **/
 -(void) pinTrustedCertificatePublicKeyFromFile:(NSString*) certificateFilename;

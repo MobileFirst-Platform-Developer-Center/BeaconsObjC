@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/JSONStoreQueryPart.h</key>
 		<data>
-		60w7owzOCmvoKpU5yJzSH2BlvB4=
+		hwLyXnZVu6yqglHYhymveYD32mU=
 		</data>
 		<key>Headers/OCLogger+Constants.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/WLAuthorizationManager.h</key>
 		<data>
-		MXqagiA22MNz9/dESKc3s9K5d54=
+		jE2Se2SIPT1C/kKGClQem9pRuAA=
 		</data>
 		<key>Headers/WLCallbackFactory.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/WLClient.h</key>
 		<data>
-		oKg5To6F+iQ8SAq2XTpGLGzV+sg=
+		CtiMVwgyLopO+YR4Xl6nHuexC5s=
 		</data>
 		<key>Headers/WLConfidenceLevel.h</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Headers/WLCookieExtractor.h</key>
 		<data>
-		kxE2ccgiw0/mLrrAIlvi7yWX7rI=
+		rHoLeNNDXatFZ6VCFdINnaBBkFA=
 		</data>
 		<key>Headers/WLCoordinate.h</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>Headers/WLPush.h</key>
 		<data>
-		ytu8KkLq6hrdyKfbDgUQpwMmw4c=
+		4Fmq/OdbhijuHs4AgSGP1JukQg0=
 		</data>
 		<key>Headers/WLPushOptions.h</key>
 		<data>
@@ -350,7 +350,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FLqyqqI0O0GFBmlr7HtTQr2K2oU=
+		ko5gbjm2+ce98Cqf1OeWvqUjTIU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -441,7 +441,7 @@
 		</data>
 		<key>Headers/JSONStoreQueryPart.h</key>
 		<data>
-		60w7owzOCmvoKpU5yJzSH2BlvB4=
+		hwLyXnZVu6yqglHYhymveYD32mU=
 		</data>
 		<key>Headers/OCLogger+Constants.h</key>
 		<data>
@@ -469,7 +469,7 @@
 		</data>
 		<key>Headers/WLAuthorizationManager.h</key>
 		<data>
-		MXqagiA22MNz9/dESKc3s9K5d54=
+		jE2Se2SIPT1C/kKGClQem9pRuAA=
 		</data>
 		<key>Headers/WLCallbackFactory.h</key>
 		<data>
@@ -485,7 +485,7 @@
 		</data>
 		<key>Headers/WLClient.h</key>
 		<data>
-		oKg5To6F+iQ8SAq2XTpGLGzV+sg=
+		CtiMVwgyLopO+YR4Xl6nHuexC5s=
 		</data>
 		<key>Headers/WLConfidenceLevel.h</key>
 		<data>
@@ -493,7 +493,7 @@
 		</data>
 		<key>Headers/WLCookieExtractor.h</key>
 		<data>
-		kxE2ccgiw0/mLrrAIlvi7yWX7rI=
+		rHoLeNNDXatFZ6VCFdINnaBBkFA=
 		</data>
 		<key>Headers/WLCoordinate.h</key>
 		<data>
@@ -597,7 +597,7 @@
 		</data>
 		<key>Headers/WLPush.h</key>
 		<data>
-		ytu8KkLq6hrdyKfbDgUQpwMmw4c=
+		4Fmq/OdbhijuHs4AgSGP1JukQg0=
 		</data>
 		<key>Headers/WLPushOptions.h</key>
 		<data>
